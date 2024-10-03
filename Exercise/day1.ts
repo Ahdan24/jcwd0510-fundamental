@@ -54,5 +54,6 @@ const bedaHari: number = (diffinMs / milisecondinDays);
 
 console.log(`perbedaan hari dari tanggal pertama dan kedua: ${bedaHari}`);
 
+console.log(a);
 
 
