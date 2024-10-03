@@ -52,8 +52,9 @@ const diffinMs: number = Math.abs(date1.getTime() - date2.getTime());
 const milisecondinDays: number =(1000 * 60 * 60 * 24); 
 const bedaHari: number = (diffinMs / milisecondinDays);
 
-console.log(`perbedaan hari dari tanggal pertama dan kedua: ${bedaHari}`);
+console.log(`perbedaan hari dari tanggal ke-1 dan ke-2: ${bedaHari}`);
 
 console.log(a);
+console.log();
 
 
