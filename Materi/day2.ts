@@ -157,7 +157,14 @@ while (true) {
 
 for (let i = 0; i < 5; i++) {
   if (i===3) continue;
-
-  console.log(i);
   
 } 
+
+
+
+
+//latihan git
+console.log();
+console.log();
+console.log();
+
