@@ -138,9 +138,9 @@ console.log(sortedNumbers.join(", "));
 // type.
 // ○ Example : “hello” → 1
 
-const inputSntc: string = "hello";
+const inputSntc: string = "hello"; 
 
-let output: number;
+let output: number; 
 
 if (typeof inputSntc === "string") {
   output = 1;
