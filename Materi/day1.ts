@@ -5,14 +5,15 @@ const message: string = "Hello World";
 
 //string buid in method
 
-const nama: string = "Siti Khodijah";
+const nama: string = "SitI Khodijah";
 const nama2: string = " Metal";
 const nama3: string = " Banget";
 
 console.log(nama.toLowerCase()); // Cara langsung
 console.log(nama.toUpperCase()); // Cara langsung
-console.log(nama.replace("S", "o")); // Cara langsung
+console.log(nama.replace("S","o")); // Cara langsung
 console.log(nama.replaceAll("i", "o")); // Cara langsung
+console.log(nama.replaceAll(/i/gi,"o")); //g=global char i= case sensitive
 console.log(nama.split(" ")); // Cara langsung
 console.log(nama.split("")); // Cara langsung
 console.log(nama.concat(nama2).concat(nama3));// Cara langsung
