@@ -1,20 +1,21 @@
 // ARRAY
 
-// const arr = []; // cara 1
-// const arr2 = new Array(); // cara 2
+//  const arr_ = [];  //cara 1
+//  const arr_2 = new Array(); 
 
-// const arr: string[] = ["A", "B", "C"];
-// const arr2: string[] = new Array("A", "B", "C");
+//  const arr_: string[] = ["A", "B", "C"];
+//  const arr_2: string[] = new Array("A", "B", "C");
 
-// const arr3: number[] = [1, 2, 3, 4];
-// const arr4: number[] = new Array(1, 2, 3, 4);
+//  const arr3: number[] = [1, 2, 3, 4];
+//  const arr4: number[] = new Array(1, 2, 3, 4);
 
-// array of object
-// const students: { name: string; email: string }[] = [
-//   { name: "budi", email: "budi@mail.com" },
-//   { name: "siti", email: "siti@mail.com" },
-//   { name: "joko", email: "joko@mail.com" },
-// ];
+//  //array of object =============
+
+//  const students: { name: string; email: string }[] = [
+//    { name: "budi", email: "budi@mail.com" },
+//    { name: "siti", email: "siti@mail.com" },
+//    { name: "joko", email: "joko@mail.com" },
+//  ];
 
 // PascalCase
 // Singular
@@ -55,7 +56,7 @@ type Student = {
   //   console.log(fruit);
   // }
   
-  // Execise for of
+  // Exercise for of
   // hitung jumlah semua bilangan dalam array menggunakan for of
   // ex input = [1,2,3,4,5,6] -> 21
   
@@ -70,6 +71,7 @@ type Student = {
   
   // FUNCTION =================================
   // ada 2 cara untuk menuliskan fungsi
+  
   // 1. function declaration
   function square(number: number) {
     return number * number;
