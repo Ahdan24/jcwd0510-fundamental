@@ -5,7 +5,7 @@ const message: string = "Hello World";
 
 //string buid in method
 
-const nama: string = "SitI Khodijah";
+const nama: string = "Siti Khodijah";
 const nama2: string = " Metal";
 const nama3: string = " Banget";
 

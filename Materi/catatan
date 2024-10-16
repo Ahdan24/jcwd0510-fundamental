@@ -6,22 +6,56 @@ cd nama_folder = masuk folder
 cd../= untuk kembali ke folder sebelumnya
 ls= untuk melihat isi dalam folder
 
-Biasakan pake const jika hanya untuk menampung nilai variable tetap.
 
-const digunakan untuk nilai tetap dan tidak akan dirubah.
-let digunakan jika nila variable akan diubah.
+ ====== VARIABLE ========
 
+1. const digunakan untuk nilai tetap dan tidak akan dirubah.
 
-1. toLowerCase() ->
-2. toUpperCase() ->
-3. replace() ->
-4. replaceAll() ->
-5. split() ->
-6. concat() ->
-7. slice() ->
+2. let digunakan jika nila variable akan diubah.
+
+3. var 
+
+noted: Biasakan pake const jika hanya untuk menampung nilai variable tetap.
+
+            === Variable naming ====
+
+1. hanya boleh menggunakan huruf, angka, dan simbol $ dan _
+2. Sensitive case! : huruf kecil besar berpengaruh terhadap koding!.
+
+====Data types ====
+
+        primitive: String, number, boolean, null, dan undifined
+        non primitive: Array dan object
+
+== Primitive
+
+1. string= "" dan ''
+2. number= 1234567890
+3. boolean= true and false
+4. null= kosong dan belum terisi
+5. undifined= kosong dan java tidak tau apa isi variable tsb
+
+== Non primitive
+
+ 1. Array -> kumpulan data yg tipe datanya sama!
+
+ .length = dimulai dari 1
+ .index = dimulai dari 0
+
+ 2. Object
+
+==== build in method ====
+
+1. toLowerCase() -> merubah huruf besar ke kecil
+2. toUpperCase() -> merubah huruf besar ke kecil
+3. replace() -> digunakan untuk menggantikan sebagian huruf
+4. replaceAll() -> digunakan untuk menggantikan seluruh huruf yang ingin diganti
+5. split() -> untuk memecah string dalam array
+6. concat() -> menggabungkan 2 array menjadi 1 array
+7. slice() -> menyalin seluruh atau sebagian suatu isi variable tanpa merubah isi variable asli tersebut
 8. toString() ->
 
-== Math ==
+==== Math ====
 
 1. Math.ceil = membulatkan angka keatas
 2. Math.floor = membulatkan angka ke bawah
@@ -65,11 +99,43 @@ if (condition) {
 
 Loop Statment
 
-1. For Loop
-2. For...of Loop
-3. For...in Loop
-4. While Loop
-5. Do...while Loop
+1. For Loop -> digunakan untuk iterasi yg sudah diketahui jumlahnya 
+contoh: for (let i=0; i < 5;i++>) {
+    console.log(i) // output; 0, 1, 2, 3, 4
+}
+2. For...of Loop -> digunakan untuk mengiterasi elemen-elemen dalam array atau iterable lainya
+contoh: 
+const array = [10,20,30,40];
+for (const value off array) {
+    console.log(value); // output: 10,20,30,40
+}
+
+3. For...in Loop -> digunakan untuk mengiterasi properti dari object
+contoh:
+const object = {a: 1, b: 2, c: 3};
+for (const key in object) {
+    console.log(key, object[key]); // Output: a 1, b 2, c 3
+}
+
+
+4. While Loop -> digunakan untuk iterasi berdasarkan kondsi yg terus diperiksa sebelum eksekusi
+contoh: 
+let count = 0;
+while (count < 5) {
+    console.log(count); // Output: 0, 1, 2, 3, 4
+    count++;
+}
+
+
+5. Do...while Loop -> digunakan untuk iterasi setidaknya membutuhkan satu kali eksekusi sebelum kondisi diperiksa
+contoh:
+let count = 0;
+do {
+    console.log(count); // Output: 0, 1, 2, 3, 4
+    count++;
+} while (count < 5);
+
+
 
 ==Github==
 
@@ -81,30 +147,6 @@ Loop Statment
 LIFO DAN FIFO
 
 LIFO: (Last In, First Out), FIFO: (First In, First Out)
-
-1. Push() : Menambahkan array 
-2. pop() : menghapus elemen terakhir yang ditambahkan
-3. peek() : melihat element paling atas tanpa menghapusnya
-4. isEmpty() : memeriksa apakah tumpukan kosong
-5. size: memeriksa jumlah elemen saat ini
-
-====Data types ====
-
-primitive: String, number, boolean, null, dan undifined
-non primitive: Array dan object
-
-==Primitive
-
-1. string= "" dan ''
-2. number= 1234567890
-3. boolean= true and false
-4. null= kosong dan belum terisi
-5. undifined= kosong dan java tidak tau apa isi variable tsb
-
-== Non primitive
-
- 1. Array
- 2. Object
 
 
 == big O notation ==
