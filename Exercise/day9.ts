@@ -32,7 +32,6 @@ class BankQueue {
     return this.queue.shift(); // .shift berguna untuk menghapus antrian
   }
 
-  // mengambil nomor
   size(): number {
     return this.queue.length; // mengembalikan jumlah antrian saat ini
   }

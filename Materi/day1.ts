@@ -139,7 +139,7 @@ console.log(Math.round(4.9));
 //Math max = mengembalikan angka terbesar dari sekumpulan angka
 console.log(Math.max(1,2,3,4,5,6,7,8));
 
-//Math max = mengembalikan angka terkeci; dari sekumpulan angka
+//Math min = mengembalikan angka terkeci; dari sekumpulan angka
 console.log(Math.min(1,2,3,4,5,6,7,8));
 
 //Math abs = menghilangkan tanda negatif

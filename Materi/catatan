@@ -1,0 +1,131 @@
+/*
+
+==Intro Programing==
+
+cd nama_folder = masuk folder
+cd../= untuk kembali ke folder sebelumnya
+ls= untuk melihat isi dalam folder
+
+Biasakan pake const jika hanya untuk menampung nilai variable tetap.
+
+const digunakan untuk nilai tetap dan tidak akan dirubah.
+let digunakan jika nila variable akan diubah.
+
+
+1. toLowerCase() ->
+2. toUpperCase() ->
+3. replace() ->
+4. replaceAll() ->
+5. split() ->
+6. concat() ->
+7. slice() ->
+8. toString() ->
+
+== Math ==
+
+1. Math.ceil = membulatkan angka keatas
+2. Math.floor = membulatkan angka ke bawah
+3. Math.around membulatkan angka terdekat
+4. Math.max = mengembalikan angka terbesar dari sekumpulan angka
+5. Math.min = mengembalikan angka terkeci; dari sekumpulan angka
+6. Math.abs = menghilangkan tanda negatif
+7. Math.random = menghasilkan angka acak antara 0 dan 1
+
+
+==== IF STATMENT ====
+
+Syntax:
+
+if(condition) {
+ codeblock
+}
+
+=== Else Statment ===
+
+Syntax:
+
+if(condition) {
+ codeblock
+}else {
+    codeblock
+}
+
+=== Esle If Statment ===
+
+Syntax:
+
+if (condition) {
+      codeblock
+}else if(condition) {
+    codeblock
+}else if(condition) {
+    codeblock
+}
+
+
+Loop Statment
+
+1. For Loop
+2. For...of Loop
+3. For...in Loop
+4. While Loop
+5. Do...while Loop
+
+==Github==
+
+1. git add .
+2. git commit -m "note!"
+3. git push origin main
+
+==Data Structur==
+LIFO DAN FIFO
+
+LIFO: (Last In, First Out), FIFO: (First In, First Out)
+
+1. Push() : Menambahkan array 
+2. pop() : menghapus elemen terakhir yang ditambahkan
+3. peek() : melihat element paling atas tanpa menghapusnya
+4. isEmpty() : memeriksa apakah tumpukan kosong
+5. size: memeriksa jumlah elemen saat ini
+
+====Data types ====
+
+primitive: String, number, boolean, null, dan undifined
+non primitive: Array dan object
+
+==Primitive
+
+1. string= "" dan ''
+2. number= 1234567890
+3. boolean= true and false
+4. null= kosong dan belum terisi
+5. undifined= kosong dan java tidak tau apa isi variable tsb
+
+== Non primitive
+
+ 1. Array
+ 2. Object
+
+
+== big O notation ==
+ -> mencari case paling terburuk
+
+1. O(1) -> waktunya konstan
+2. O(n) -> satu kali looping
+3. O(logn n) -> berkurang setengah setiap loop /    dibagi 2 setiap loop
+4. O(n log n) -> digunakan untuk sorting (.sort)
+5. O(n2) -> nestes loop dimana ada 2 kali looping
+6. O(nn)
+
+=== Search Algorithm ===
+
+1. linear search : cek satu persatu
+2. binary search: array yg saat looping berkurang setengah / dibagii 2 dengan mencari titik tengahnya.
+
+== Sort Algorithm ==
+pengurutan value dalam array dalam algorithm
+
+1. buble sort : switch index dg membandingkan dengan yg terkecil
+2. selection sort: mencari array yg paling terkecil dan diurutkan dari depan.
+
+*/

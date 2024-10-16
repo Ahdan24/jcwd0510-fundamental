@@ -131,7 +131,7 @@ while (i < 10) {
 
 // do while loop
 
-let count: number =1;
+let count: number = 1;
 
 do {
   console.log("ini iterasi ke:" + count);
