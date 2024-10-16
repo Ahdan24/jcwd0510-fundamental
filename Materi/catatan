@@ -100,7 +100,8 @@ if (condition) {
 Loop Statment
 
 1. For Loop -> digunakan untuk iterasi yg sudah diketahui jumlahnya 
-contoh: for (let i=0; i < 5;i++>) {
+contoh:
+ for (let i=0; i < 5;i++>) {
     console.log(i) // output; 0, 1, 2, 3, 4
 }
 2. For...of Loop -> digunakan untuk mengiterasi elemen-elemen dalam array atau iterable lainya
